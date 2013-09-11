@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="JanPiedras2.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="eS">
+<head runat="server">
+    <title>Mármoles de España - JAN</title>
+    <meta name="KEYWORDS" content="Villamonte, Cegarrón, Jan, Mármoles de España, Crema Villamonte, Dorada Villamonte, Crema Marfil, Mármol Español, Mármoles Españoles, Piedras de Villamonte" />
+    <meta name="DESCRIPTION" content="Web corporativa de la empresa JAN" />
+    <meta name="DC.language" CONTENT="ES">
+    <meta name="DC.source" CONTENT="http://www.janpiedrasymarmoles.com/">
+    <!--<meta name="DC.relation" CONTENT="http://.com/"> -->
+    <meta name="DC.title" CONTENT="Piedras y Mármoles de España - JAN">
+    <meta name="DC.keywords" CONTENT="Villamonte, Cegarrón, Jan, Mármoles de España, Crema Villamonte, Dorada Villamonte, Crema Marfil, Mármol Español, Mármoles Españoles, Piedras de Villamonte">
+    <meta name="DC.subject" CONTENT="the subject">
+    <meta name="DC.description" CONTENT="Web corporativa de la empresa JAN">
+    <meta name="GOOGLEBOT" content="INDEX,FOLLOW,ALL" />
+    <meta name="google-site-verification" content="" />
+    <meta name="ROBOTS" content="INDEX,FOLLOW,ALL" />
+    <meta name="VERSION" content="1.0.0" />
+    <meta name="AUTHOR" content="JAN" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/stylesIE.css" type="text/css" media="screen" /><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" href="css/stylesIE7.css" type="text/css" media="screen" /><![endif]-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="js/cufon-yui.js"></script>
+    <script src="js/PT_Sans.font.js"></script>
+    <script src="js/PT_Sans_Narrow.font.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/supersized.3.2.6.min.js"></script>
+    <script type="text/javascript" src="js/theme/supersized.shutter.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="js/theme/supersized.shutter.css" type="text/css" media="screen" />
+    <style type="text/css">
+		@font-face {
+				font-family: 'HelveticaLTStd-Roman';
+				src: url('js/theme/helveticaltstdroman.eot');
+				src: url('helveticaltstdroman.eot?#iefix') format('embedded-opentype'),
+						 url('js/theme/helveticaltstdroman.woff') format('woff'),
+						 url('js/theme/helveticaltstdroman.ttf') format('truetype'),
+						 url('js/theme/helveticaltstdroman.svg#helveticaltstdroman') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+	</style>
+
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $.supersized({
+                // Functionality
+                slide_interval: 6000, 	// Length between transitions
+                transition: 3, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                transition_speed: 1000, 	// Speed of transition
+
+                // Components							
+                slide_links: 'false', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+                slides: [			// Slideshow Images
+					    {image: 'images/Fondo1.jpg' },
+					    { image: 'images/Fondo2.jpg' },
+					    { image: 'images/Fondo3.jpg' },
+					    { image: 'images/Fondo4.jpg' },
+					    { image: 'images/Fondo5.jpg' },
+					    { image: 'images/Fondo6.jpg' },
+					    { image: 'images/Fondo7.jpg' },
+					]
+            });
+        });
+		</script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body_home slider">
+    <form runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization=true>
+    </asp:ScriptManager>
+    <div id="wrapper">
+        <div id="menu_wrap">
+            <div id="menu">
+                <div id="logo">
+                    <h1>
+                        <a href="Default.aspx" class="logo_image">Logo Jan</a>
+                    </h1>
+                </div>
+                <ul id="navbar">
+                    <li class="top_nav"><a id="nosotros" href="Nosotros.aspx">JAN<span>quienes somos</span></a></li>
+                    <li class="top_nav"><a id="materiales">MATERIALES<span>vea nuestros materiales</span></a>
+                        <ul>
+                            <li><a href="Rojo.aspx">Rojo Alicante</a></li>
+                            <li><a href="Marfil.aspx">Crema Marfil</a></li>
+                            <li><a href="">Marrón Imperial</a>
+                                <ul>
+                                    <li><a href="ImperialLight.aspx">Light</a></li>
+                                    <li><a href="ImperialDark.aspx">Dark</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="Alga.aspx">Amarillo Alga</a></li>
+                            <li><a href="Blanco.aspx">Blanco Nacional</a></li>
+                            <li><a href="">Piedras</a>
+                                <ul>
+                                    <li><a href="Crema.aspx">Crema Villamonte</a></li>
+                                    <li><a href="Dorada.aspx">Dorada Villamonte</a></li>
+                                    <li><a href="Cegarron.aspx">Cegarrón</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="top_nav"><a id="galeria" href="Trabajos.aspx">Trabajos<span>vea nuestros trabajos</span></a></li>
+                    <li class="top_nav"><a id="canteras" href="Canteras.aspx">CANTERAS<span>vea nuestras cCanteras</span></a>
+                    </li>
+                    <li class="top_nav"><a id="catalogo" href="">CATALOGO<span>vea nuestro catálogo</span></a></li>
+                    <li class="top_nav"><a id="contact" href="Contacto.aspx">CONTACTO<span>contacte con nosotros</span></a></li>
+                </ul>
+            </div>
+		    <div id="hide_menu">   
+		    	<a href="#" class="menu_visible"></a> 
+		        	<div class="menu_tooltip">
+		            	<p>Esconder menú</p>
+		            </div>  		     
+		    </div>   		     
+        </div>
+        <div id="main_wrap">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <asp:ContentPlaceHolder ID="FooterContent" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

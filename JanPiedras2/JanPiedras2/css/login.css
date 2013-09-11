@@ -1,0 +1,71 @@
+﻿body
+{
+    width: 100%;
+    height: 100%;
+}
+#todo
+{
+    width: 100%;
+    height: 100%;
+}
+.top
+{
+    color: #CCCCCC;
+    background-color: #000000;
+    float: left;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    top: 0px;
+    position: fixed;
+    left: 0px;
+}
+
+.encabezado
+{
+    font-family: Century;
+    font-size: large;
+}
+
+.mid
+{
+    width: 99%;
+    float: left;
+}
+
+.midizq
+{
+    width: 40%;
+    float: left;
+}
+
+.midcen
+{
+    width: 19%;
+    float: left;
+}
+
+
+.login
+{
+    background-color: #CCCCCC;
+    margin-top: 100%;
+}
+
+.middcha
+{
+    width: 40%;
+    float: left;
+}
+
+.bot
+{
+    color: #CCCCCC;
+    background-color: #000000;
+    float: left;
+    width: 100%;
+    text-align: right;
+    bottom: 0px;
+    position: fixed;
+    left: 0px;
+}

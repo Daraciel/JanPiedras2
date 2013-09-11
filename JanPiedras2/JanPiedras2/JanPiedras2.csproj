@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4EED628-C87D-46F3-8076-ACC48A7C24D8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JanPiedras2</RootNamespace>
+    <AssemblyName>JanPiedras2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\..\Desktop\AjaxControlToolkit.Binary.NET40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Alga.aspx" />
+    <Content Include="Blanco.aspx" />
+    <Content Include="Canteras.aspx" />
+    <Content Include="Cegarron.aspx" />
+    <Content Include="Contacto.aspx" />
+    <Content Include="Crema.aspx" />
+    <Content Include="css\acordeon.css" />
+    <Content Include="css\colorbox.css" />
+    <Content Include="css\jquery.fancybox-1.3.1.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\PanelControl.css" />
+    <Content Include="css\prettyPhoto.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\stylesIE.css" />
+    <Content Include="css\stylesIE7.css" />
+    <Content Include="css\supersized.core.css" />
+    <Content Include="css\supersized.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Dorada.aspx" />
+    <Content Include="images\Alga1.jpg" />
+    <Content Include="images\Alga2.jpg" />
+    <Content Include="images\Alga3.jpg" />
+    <Content Include="images\Canteras1.JPG" />
+    <Content Include="images\Canteras2.JPG" />
+    <Content Include="images\Canteras3.jpg" />
+    <Content Include="images\Canteras4.JPG" />
+    <Content Include="images\Canteras5.JPG" />
+    <Content Include="images\Canteras6.JPG" />
+    <Content Include="images\Canteras7.jpg" />
+    <Content Include="images\Fondo2.jpg" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\black.jpg" />
+    <Content Include="images\black80.png" />
+    <Content Include="images\Blanco1.JPG" />
+    <Content Include="images\Blanco2.JPG" />
+    <Content Include="images\Blanco3.JPG" />
+    <Content Include="images\blockqoute.png" />
+    <Content Include="images\blockquote.png" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\Fondo4.jpg" />
+    <Content Include="images\Cegarron1.jpg" />
+    <Content Include="images\cegarron2.jpg" />
+    <Content Include="images\Cegarron3.jpg" />
+    <Content Include="images\Chile.jpg" />
+    <Content Include="images\colorbox\controls.png" />
+    <Content Include="images\colorbox\loading.gif" />
+    <Content Include="images\comment.png" />
+    <Content Include="images\comment_avatar.jpg" />
+    <Content Include="images\content_back.png" />
+    <Content Include="images\content_thumb.jpg" />
+    <Content Include="images\crema1.jpg" />
+    <Content Include="images\crema2.jpg" />
+    <Content Include="images\crema3.jpg" />
+    <Content Include="images\Dorada1.JPG" />
+    <Content Include="images\Dorada2.JPG" />
+    <Content Include="images\Dorada3.JPG" />
+    <Content Include="images\email.png" />
+    <Content Include="images\fax.png" />
+    <Content Include="images\Fondo1.jpg" />
+    <Content Include="images\Fondo3.jpg" />
+    <Content Include="images\Fondo5.jpg" />
+    <Content Include="images\Fondo6.jpg" />
+    <Content Include="images\Fondo7.JPG" />
+    <Content Include="images\grid.png" />
+    <Content Include="images\grid2.png" />
+    <Content Include="images\hide_menu_back.png" />
+    <Content Include="images\house.png" />
+    <Content Include="images\ImperialDark1.JPG" />
+    <Content Include="images\ImperialDark2.jpg" />
+    <Content Include="images\ImperialDark3.jpg" />
+    <Content Include="images\ImperialLight1.JPG" />
+    <Content Include="images\ImperialLight2.jpg" />
+    <Content Include="images\ImperialLight3.jpg" />
+    <Content Include="images\JAN1.JPG" />
+    <Content Include="images\Logo_con_todo.png" />
+    <Content Include="images\logo_back.png" />
+    <Content Include="images\Logo_LaHojarasca.png" />
+    <Content Include="images\Logo_NetProjects.png" />
+    <Content Include="images\map.jpg" />
+    <Content Include="images\mapa.jpg" />
+    <Content Include="images\Marfil1.jpg" />
+    <Content Include="images\Marfil2.JPG" />
+    <Content Include="images\Marfil3.jpg" />
+    <Content Include="images\menu_back.png" />
+    <Content Include="images\menu_hide_arrow_bottom.png" />
+    <Content Include="images\menu_hide_arrow_top.png" />
+    <Content Include="images\menu_hover_arrow.png" />
+    <Content Include="images\newer.png" />
+    <Content Include="images\older.png" />
+    <Content Include="images\phone_Android.png" />
+    <Content Include="images\progress.gif" />
+    <Content Include="images\Rojo1.JPG" />
+    <Content Include="images\Rojo2.jpg" />
+    <Content Include="images\Rojo3.jpg" />
+    <Content Include="images\sax.jpg" />
+    <Content Include="images\sax220.jpg" />
+    <Content Include="images\slideshow_nav_back.png" />
+    <Content Include="images\slideshow_nav_sprite.png" />
+    <Content Include="images\submenu_hover_arrow.png" />
+    <Content Include="images\success.png" />
+    <Content Include="images\thumbs\Alga1thumb.jpg" />
+    <Content Include="images\thumbs\Alga2thumb.jpg" />
+    <Content Include="images\thumbs\Alga3thumb.jpg" />
+    <Content Include="images\thumbs\Blanco1thumb.jpg" />
+    <Content Include="images\thumbs\Blanco2thumb.jpg" />
+    <Content Include="images\thumbs\Blanco3thumb.jpg" />
+    <Content Include="images\thumbs\Canteras1thumb.jpg" />
+    <Content Include="images\thumbs\Canteras2thumb.jpg" />
+    <Content Include="images\thumbs\Canteras3thumb.jpg" />
+    <Content Include="images\thumbs\Canteras4thumb.jpg" />
+    <Content Include="images\thumbs\Canteras5thumb.jpg" />
+    <Content Include="images\thumbs\Canteras6thumb.jpg" />
+    <Content Include="images\thumbs\Canteras7thumb.jpg" />
+    <Content Include="images\thumbs\Cegarron1thumb.jpg" />
+    <Content Include="images\thumbs\cegarron2thumb.jpg" />
+    <Content Include="images\thumbs\Cegarron3thumb.jpg" />
+    <Content Include="images\thumbs\Chilethumb.jpg" />
+    <Content Include="images\thumbs\crema2thumb.jpg" />
+    <Content Include="images\thumbs\crema3thumb.jpg" />
+    <Content Include="images\thumbs\crema1thumb.jpg" />
+    <Content Include="images\thumbs\Dorada1thumb.jpg" />
+    <Content Include="images\thumbs\Dorada2thumb.jpg" />
+    <Content Include="images\thumbs\Dorada3thumb.jpg" />
+    <Content Include="images\thumbs\ImperialDark1thumb.jpg" />
+    <Content Include="images\thumbs\ImperialDark2thumb.jpg" />
+    <Content Include="images\thumbs\ImperialDark3thumb.jpg" />
+    <Content Include="images\thumbs\ImperialLight1thumb.jpg" />
+    <Content Include="images\thumbs\ImperialLight2thumb.jpg" />
+    <Content Include="images\thumbs\ImperialLight3thumb.jpg" />
+    <Content Include="images\thumbs\Marfil1thumb.jpg" />
+    <Content Include="images\thumbs\Marfil2thumb.jpg" />
+    <Content Include="images\thumbs\Marfil3thumb.jpg" />
+    <Content Include="images\thumbs\Rojo1thumb.jpg" />
+    <Content Include="images\thumbs\Rojo2thumb.jpg" />
+    <Content Include="images\thumbs\Rojo3thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos10thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos11thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos12thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos13thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos14thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos15thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos16thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos1thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos2thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos3thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos4thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos5thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos6thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos7thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos8thumb.jpg" />
+    <Content Include="images\thumbs\Trabajos9thumb.jpg" />
+    <Content Include="images\tooltip.png" />
+    <Content Include="images\Trabajos1.jpg" />
+    <Content Include="images\Trabajos10.JPG" />
+    <Content Include="images\Trabajos11.JPG" />
+    <Content Include="images\Trabajos12.jpg" />
+    <Content Include="images\Trabajos13.jpg" />
+    <Content Include="images\Trabajos14.JPG" />
+    <Content Include="images\Trabajos15.jpg" />
+    <Content Include="images\Trabajos16.jpg" />
+    <Content Include="images\Trabajos2.jpg" />
+    <Content Include="images\Trabajos3.JPG" />
+    <Content Include="images\Trabajos4.JPG" />
+    <Content Include="images\Trabajos5.JPG" />
+    <Content Include="images\Trabajos6.jpg" />
+    <Content Include="images\Trabajos7.jpg" />
+    <Content Include="images\Trabajos8.jpg" />
+    <Content Include="images\Trabajos9.JPG" />
+    <Content Include="ImperialDark.aspx" />
+    <Content Include="ImperialLight.aspx" />
+    <Content Include="js\cufon-yui.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\galleria\classic-loader.gif" />
+    <Content Include="js\galleria\classic-map.png" />
+    <Content Include="js\galleria\galleria.classic.css" />
+    <Content Include="js\galleria\galleria.classic.js" />
+    <Content Include="js\galleria\galleria.js" />
+    <Content Include="js\helveticaltstdroman.svg" />
+    <Content Include="js\jquery.colorbox-min.js" />
+    <Content Include="js\jquery.cycle.min.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.easing.min.js" />
+    <Content Include="js\jquery.fancybox-1.3.1.pack.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\jquery.slideviewer.1.2.js" />
+    <Content Include="js\theme\supersized.shutter.css" />
+    <Content Include="js\theme\supersized.shutter.js" />
+    <Content Include="js\theme\supersized.shutter.min.js" />
+    <Content Include="js\PT_Sans.font.js" />
+    <Content Include="js\PT_Sans_Narrow.font.js" />
+    <Content Include="js\supersized.3.2.6.min.js" />
+    <Content Include="js\supersized.core.3.2.1.min.js" />
+    <Content Include="Marfil.aspx" />
+    <Content Include="Nosotros.aspx" />
+    <Content Include="Rojo.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Trabajos.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alga.aspx.cs">
+      <DependentUpon>Alga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alga.aspx.designer.cs">
+      <DependentUpon>Alga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blanco.aspx.cs">
+      <DependentUpon>Blanco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blanco.aspx.designer.cs">
+      <DependentUpon>Blanco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Canteras.aspx.cs">
+      <DependentUpon>Canteras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Canteras.aspx.designer.cs">
+      <DependentUpon>Canteras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cegarron.aspx.cs">
+      <DependentUpon>Cegarron.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cegarron.aspx.designer.cs">
+      <DependentUpon>Cegarron.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Contacto.aspx.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacto.aspx.designer.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Crema.aspx.cs">
+      <DependentUpon>Crema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Crema.aspx.designer.cs">
+      <DependentUpon>Crema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dorada.aspx.cs">
+      <DependentUpon>Dorada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dorada.aspx.designer.cs">
+      <DependentUpon>Dorada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImperialDark.aspx.cs">
+      <DependentUpon>ImperialDark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImperialDark.aspx.designer.cs">
+      <DependentUpon>ImperialDark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImperialLight.aspx.cs">
+      <DependentUpon>ImperialLight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImperialLight.aspx.designer.cs">
+      <DependentUpon>ImperialLight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marfil.aspx.cs">
+      <DependentUpon>Marfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marfil.aspx.designer.cs">
+      <DependentUpon>Marfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nosotros.aspx.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nosotros.aspx.designer.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rojo.aspx.cs">
+      <DependentUpon>Rojo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rojo.aspx.designer.cs">
+      <DependentUpon>Rojo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Trabajos.aspx.cs">
+      <DependentUpon>Trabajos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trabajos.aspx.designer.cs">
+      <DependentUpon>Trabajos.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\colorbox\Thumbs.db" />
+    <None Include="images\Thumbs.db" />
+    <None Include="js\helveticaltstdroman.eot" />
+    <None Include="js\helveticaltstdroman.ttf" />
+    <None Include="js\helveticaltstdroman.woff" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63475</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
