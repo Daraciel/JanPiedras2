@@ -132,8 +132,31 @@ z-index: 20;
 outline: none;
 }
 
+.titulo
+{
+    display: block;
+    width: 180px;
+    height: 40px;
+    font: 24px 'HelveticaLTStd-Roman', 'Myriad Pro', 'Helvetica', 'Verdana', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 20;
+    outline: none;
 
-#navbar li span
+}
+.descrip
+{
+    font: italic bold 12px 'Myriad Pro' , 'Helvetica' , 'Verdana' , sans-serif;
+    color: #91CBFD;
+    position: absolute;
+    top: 31px;
+    left: 10px;
+    z-index: 10;
+    text-transform: none;
+}
+/*
+#navbar li a span
 {
     font: italic bold 12px 'Myriad Pro' , 'Helvetica' , 'Verdana' , sans-serif;
     color: #91CBFD;
@@ -144,7 +167,7 @@ outline: none;
     text-transform: none;
 }
 
-
+*/
 #navbar li span.hover_arrow
 {width: 30px;
 height: 30px;

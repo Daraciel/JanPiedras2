@@ -19,7 +19,7 @@
     <meta name="VERSION" content="1.0.0" />
     <meta name="AUTHOR" content="JAN" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
@@ -88,8 +88,13 @@
                     </h1>
                 </div>
                 <ul id="navbar">
-                    <li class="top_nav"><a id="nosotros" href="Nosotros.aspx">JAN<span>quienes somos</span></a></li>
-                    <li class="top_nav"><a id="materiales">MATERIALES<span>vea nuestros materiales</span></a>
+                    <li class="top_nav"><a id="nosotros" href="Nosotros.aspx" class="titulo">JAN МАТЕРИАЛЫ<span class="descrip">quienes somos</span></a></li>
+                    <li class="top_nav">
+                        <a id="materiales" class="titulo">
+                            <asp:label ID="lblMateriales" runat="server" Text="MATERIALES"/>
+                            <span class="descrip">vea nuestros materiales</span>
+
+                        </a>
                         <ul>
                             <li><a href="Rojo.aspx">Rojo Alicante</a></li>
                             <li><a href="Marfil.aspx">Crema Marfil</a></li>
@@ -111,11 +116,16 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="top_nav"><a id="galeria" href="Trabajos.aspx">Trabajos<span>vea nuestros trabajos</span></a></li>
-                    <li class="top_nav"><a id="canteras" href="Canteras.aspx">CANTERAS<span>vea nuestras cCanteras</span></a>
+                    <li class="top_nav"><a id="galeria" href="Trabajos.aspx" class="titulo">Trabajos<span class="descrip">vea nuestros trabajos</span></a></li>
+                    <li class="top_nav"><a id="canteras" href="Canteras.aspx" class="titulo">CANTERAS<span class="descrip">vea nuestras cCanteras</span></a>
                     </li>
-                    <li class="top_nav"><a id="catalogo" href="">CATALOGO<span>vea nuestro catálogo</span></a></li>
-                    <li class="top_nav"><a id="contact" href="Contacto.aspx">CONTACTO<span>contacte con nosotros</span></a></li>
+                    <li class="top_nav"><a id="catalogo" href="" class="titulo">CATALOGO<span class="descrip">vea nuestro catálogo</span></a></li>
+                    <li class="top_nav"><a id="contact" href="Contacto.aspx" class="titulo">CONTACTO<span class="descrip">contacte con nosotros</span></a></li>
+                    <li class="top_nav">
+                        <asp:ImageButton  runat="server" ID="btnESP" ImageUrl="~/images/flags/flag_spain.png" OnClick="btnESP_Click" />
+                        <asp:ImageButton  runat="server" ID="btnRU" ImageUrl="~/images/flags/flag_russia.png" OnClick="btnRU_Click" />
+                    </li>
+                    
                 </ul>
             </div>
 		    <div id="hide_menu">   

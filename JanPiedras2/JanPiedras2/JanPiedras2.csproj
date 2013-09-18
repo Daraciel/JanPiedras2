@@ -21,6 +21,10 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -89,6 +93,10 @@
     <Content Include="images\Canteras5.JPG" />
     <Content Include="images\Canteras6.JPG" />
     <Content Include="images\Canteras7.jpg" />
+    <Content Include="images\flags\flag_russia.png" />
+    <Content Include="images\flags\flag_spain.png" />
+    <Content Include="images\flags\flag_united_kingdom.png" />
+    <Content Include="images\flags\flag_usa.png" />
     <Content Include="images\Fondo2.jpg" />
     <Content Include="images\ajax-loader.gif" />
     <Content Include="images\black.jpg" />
@@ -277,6 +285,21 @@
     <Compile Include="Alga.aspx.designer.cs">
       <DependentUpon>Alga.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.es.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings.RU.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.RU.resx</DependentUpon>
+    </Compile>
     <Compile Include="Blanco.aspx.cs">
       <DependentUpon>Blanco.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -380,6 +403,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_LocalResources\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
@@ -390,6 +414,24 @@
     <None Include="js\helveticaltstdroman.eot" />
     <None Include="js\helveticaltstdroman.ttf" />
     <None Include="js\helveticaltstdroman.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Strings.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Strings.RU.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.RU.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Strings.es.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings.es.designer.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

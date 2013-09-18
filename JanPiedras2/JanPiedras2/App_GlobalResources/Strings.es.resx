@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Amarillo" xml:space="preserve">
+    <value>AMARILLO ALGA</value>
+  </data>
+  <data name="AmarilloContent" xml:space="preserve">
+    <value>También conocido como Amarillo Alicante, el Amarillo Alga es una roca marmórea para exteriores como interiores, compacta de grano fino. Cuenta con un fondo amarillo y vetas de calcita irregularmente repartidas por su superficie que le dan un tono de sobriedad y a la vez de modernidad únicos.</value>
+  </data>
+  <data name="AmarilloHeader" xml:space="preserve">
+    <value>Calidez para exteriores e interiores</value>
+  </data>
+  <data name="Blanco" xml:space="preserve">
+    <value>BLANCO NACIONAL</value>
+  </data>
+  <data name="BlancoContent" xml:space="preserve">
+    <value>Blanco Nacional</value>
+  </data>
+  <data name="BlancoHeader" xml:space="preserve">
+    <value>Un Color Perfecto</value>
+  </data>
+  <data name="Canteras" xml:space="preserve">
+    <value>CANTERAS</value>
+  </data>
+  <data name="CanterasVillamonte" xml:space="preserve">
+    <value>CANTERAS VILLAMONTE</value>
+  </data>
+  <data name="Catalogo" xml:space="preserve">
+    <value>CATÁLOGO</value>
+  </data>
+  <data name="Cegarron" xml:space="preserve">
+    <value>CEGARRÓN</value>
+  </data>
+  <data name="CegarronContent1" xml:space="preserve">
+    <value>Es una lumaquela con resto de algas coralinas y fragmentos de moluscos bivalvos, 
+equinoidermos, etc. Los minerales principales son calcita, cuarzo y feldespato. 
+Como accesorios aparecen óxidos de hierro. Las canteras están ubicadas en la provincia de Albacete y de ellas se extraen bloques de gran tamaño.</value>
+  </data>
+  <data name="CegarronContent2" xml:space="preserve">
+    <value>Admite un buen pulido a poro abierto y cerrado, masillándose en este último caso con resina (en su color) o transparente. Con acabado en bruto es ideal para exteriores por su comportamiento antideslizante gracias a su porosidad.</value>
+  </data>
+  <data name="CegarronContent3" xml:space="preserve">
+    <value>Disponible en acabado a ley al corte, a ley apomazado, contra ley al corte, 
+contra ley apomazado.</value>
+  </data>
+  <data name="CegarronHeader" xml:space="preserve">
+    <value>Ideal para exteriores</value>
+  </data>
+  <data name="CMarfil" xml:space="preserve">
+    <value>CREMA MARFIL</value>
+  </data>
+  <data name="Contacte" xml:space="preserve">
+    <value>CONTACTE CON NOSOTROS</value>
+  </data>
+  <data name="Contacto" xml:space="preserve">
+    <value>CONTACTO</value>
+  </data>
+  <data name="CVilla" xml:space="preserve">
+    <value>CREMA VILLAMONTE</value>
+  </data>
+  <data name="DescargaCatalogo" xml:space="preserve">
+    <value>DESCARGUE NUESTRO CATÁLOGO</value>
+  </data>
+  <data name="DVilla" xml:space="preserve">
+    <value>DORADA VILLAMONTE</value>
+  </data>
+  <data name="Esconde" xml:space="preserve">
+    <value>ESCONDER MENÚ</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>© 2013, JAN - Canteras Villamonte. Todos los derechos reservados.2013 ,JAN</value>
+  </data>
+  <data name="MarronDark" xml:space="preserve">
+    <value>MARRÓN IMPERIAL DARK</value>
+  </data>
+  <data name="MarronLight" xml:space="preserve">
+    <value>MARRÓN IMPERIAL LIGHT</value>
+  </data>
+  <data name="Materiales" xml:space="preserve">
+    <value>MATERIALES</value>
+  </data>
+  <data name="Piedras" xml:space="preserve">
+    <value>PIEDRAS</value>
+  </data>
+  <data name="PyM" xml:space="preserve">
+    <value>PIEDRAS Y MÁRMOLES DE ESPAÑA</value>
+  </data>
+  <data name="Quienes" xml:space="preserve">
+    <value>QUIENES SOMOS</value>
+  </data>
+  <data name="Rojo" xml:space="preserve">
+    <value>ROJO ALICANTE</value>
+  </data>
+  <data name="Trabajos" xml:space="preserve">
+    <value>TRABAJOS</value>
+  </data>
+  <data name="VerCanteras" xml:space="preserve">
+    <value>VEA NUESTRAS CANTERAS</value>
+  </data>
+  <data name="VerMats" xml:space="preserve">
+    <value>VEA NUESTROS MATERIALES</value>
+  </data>
+  <data name="VerTrabajos" xml:space="preserve">
+    <value>VEA NUESTROS TRABAJOS</value>
+  </data>
+  <data name="Chile" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+  <data name="CVillaContent1" xml:space="preserve">
+    <value>Se trata de una roca arenisca de gran uniformidad, de color beige amarillento suave, comercializada en exclusiva por nosotros. Se utiliza para revestimientos exteriores e interiores, pavimentos exteriones y canteria.</value>
+  </data>
+  <data name="CVillaContent2" xml:space="preserve">
+    <value>Procede de nuestras canteras de Albacete, donde existen enormes reservas con frentes de explotacion de gran longitud, extrayendose bloques de gran tamaño.</value>
+  </data>
+  <data name="CVillaContent3" xml:space="preserve">
+    <value>Disponible en abujardado fino, grueso, apomazado, arenado, escarfilado y rayado.</value>
+  </data>
+  <data name="CVillaHeader" xml:space="preserve">
+    <value>Ideal para cantería</value>
+  </data>
+  <data name="DVillaContent1" xml:space="preserve">
+    <value>Se trata de una roca arenisca de gran profundidad, de color marfil/blanco comercializada en exclusiva por nosotros. Se utiliza para revestimientos exteriores e interiores, pavimentos exteriores y cantería.</value>
+  </data>
+  <data name="DVillaContent2" xml:space="preserve">
+    <value>Procede de nuestras canteras de Albacete, donde existen enormes reservas con frentes de explotación de gran longitud, extrayéndose bloques de gran tamaño.</value>
+  </data>
+  <data name="DVillaContent3" xml:space="preserve">
+    <value>Disponible en acabado al corte, arenado y apomazado.</value>
+  </data>
+  <data name="DVillaHeader" xml:space="preserve">
+    <value>Nuestra piedra exclusiva</value>
+  </data>
+  <data name="MarronDarkContent1" xml:space="preserve">
+    <value>También conocido como Marrón Imperial, Marrón Emperador o Emperador Oscuro, es, junto al mármol Crema Marfil, el más solicitado en todo el mundo.</value>
+  </data>
+  <data name="MarronDarkContent2" xml:space="preserve">
+    <value>Sofisticado y señorial, este mármol es sumamente adecuado para dotar de clase, estilo y elegancia cualquier espacio que deseemos. Prueba de ello es que antaño fue el elegido para decorar algunos de los más bellos palacios, como el Taj Mahal en India, y ahora ha sido elegido para decorar los edificios más vanguardistas como el Burj Khalifa (edificio más alto de Dubai).</value>
+  </data>
+  <data name="MarronDarkHeader" xml:space="preserve">
+    <value>El más demandado del mundo</value>
+  </data>
+  <data name="MarronLightContent1" xml:space="preserve">
+    <value>También conocido como Marrón Imperial Claro, Marrón Emperador Claro o simplemente Emperador Claro. Su textura es similar a la del Dark Emperador pero con una tonalidad más suave y más clara.</value>
+  </data>
+  <data name="MarronLightContent2" xml:space="preserve">
+    <value>La elegancia que transmiten sus marcadas vetas claras contrasta con su color tostado intenso, lo que permite combinarlo con facilidad con otros materiales, tanto claros como oscuros, para crear bellas variedades escultóricas y arquitectónicas.</value>
+  </data>
+  <data name="MarronLightContent3" xml:space="preserve">
+    <value>La singularidad de su aspecto jaspeado le otorga gran personalidad, y, en todo caso, supone la culminación de un elaborado proceso de búsqueda de originalidad y estilo.</value>
+  </data>
+  <data name="MarronLightHeader" xml:space="preserve">
+    <value>Elegancia y suavidad</value>
+  </data>
+  <data name="Panama" xml:space="preserve">
+    <value>Panamá</value>
+  </data>
+  <data name="QuienesContent1" xml:space="preserve">
+    <value>Desde nuestros comienzos , hemos desarrollado nuestra labor sobre los cimientos de una sólida experiencia en el tratamiento del mármol y la piedra natural, sin perder de  vista la continua evolución de tendencias en el mercado.</value>
+  </data>
+  <data name="QuienesContent2" xml:space="preserve">
+    <value>Nuestro trabajo comienza en las canteras y pasa por todas las fases; desde la extracción de bloques de material, hasta la colocación de cada pieza totalmente terminada en la obra. Realizamos cualquier proyecto desde su cotización acompañándola de los distintos despieces y planos.</value>
+  </data>
+  <data name="QuienesContent3" xml:space="preserve">
+    <value>Nuestras canteras en Albacete nos ofrecen tres variedades exclusivas de piedra natural: Las areniscas Crema Villamonte, Dorada Villamonte y Lumaquela Cegarrón.</value>
+  </data>
+  <data name="QuienesContent4" xml:space="preserve">
+    <value>Controlamos los materiales desde su extracción, y ello nos posibilita disponer de cualquier cantidad necesaria en las más variadas medidas y seleccionar el material más adecuado en cada trabajo con la certeza de estar empleando siempre piedras naturales de calidad.</value>
+  </data>
+  <data name="RojoContent1" xml:space="preserve">
+    <value>Su vínculo sólo puede considerarse como extraordinario. Funcional y cómodo por la facilidad en su cuidado y limpieza, es especialmente apto para espacios tanto abiertos como para acabados interiores.</value>
+  </data>
+  <data name="RojoContent2" xml:space="preserve">
+    <value>Su excepcional resistencia lo hace más que aconsejable para suelos (pavimentación), chapados y fachadas. La clase y el estilo que conseguiremos están fuera de toda duda.</value>
+  </data>
+  <data name="RojoHeader" xml:space="preserve">
+    <value>La perfecta unión entre resistencia y elegancia</value>
+  </data>
+  <data name="Rusia" xml:space="preserve">
+    <value>Rusia</value>
+  </data>
+  <data name="Sudamerica" xml:space="preserve">
+    <value>Sudamérica</value>
+  </data>
+</root>
